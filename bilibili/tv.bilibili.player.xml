@@ -1,0 +1,96 @@
+<filters>
+<!--屏蔽前排霸位-->
+<item enabled="true">t=火前</item>
+<item enabled="true">t=火钳</item>
+<item enabled="true">t=刘明</item>
+<item enabled="true">t=留名</item>
+<item enabled="true">t=火留</item>
+<item enabled="true">t=刚刚</item>
+<item enabled="true">t=好前</item>
+<item enabled="true">t=超前</item>
+<item enabled="true">t=分钟</item>
+<item enabled="true">t=小时</item>
+<item enabled="true">r=[wW万萬]助攻</item>
+<item enabled="true">r=^[钱前第][一二三四五六七八九十两百千万\d]{1,6}</item><!--前一百|第一百-->
+<item enabled="true">r=[钱前第][!！\?？\.。~～…]{1,6}</item><!--前！！！-->
+<item enabled="true">r=\d[秒分钟小时百千万s(min)m(hour)hwW]</item><!--6min|1.6w-->
+<item enabled="true">r=^前.*前$</item><!--前前前-->
+
+<!--屏蔽时间-->
+<item enabled="true">r=(午时|五十|50|51)(到|已到|刚到|刚过|已过|一刀|1刀|刀)</item><!--午时已到-->
+<item enabled="true">r=\d\d(\d\d)?([年\.\-]|\s+)\d(\d)?([月\.\-]|\s+)\d</item><!--xxxx.xx.xx-->
+<item enabled="true">r=\d{1,2}[:：、\/]\d{1,2}</item><!--xx:xx-->
+<item enabled="true">r=暴[露漏](时间)?[了拉啦]</item><!--暴露时间-->
+<item enabled="true">r=(生日|情人节|光棍节).*快乐</item><!--节日快乐-->
+<item enabled="true">r=\d{2}后</item><!--年龄-->
+
+<!--屏蔽速度-->
+<item enabled="true">t=倍速</item>
+<item enabled="true">r=\d倍</item>
+<item enabled="true">r=\d{1,2}[\.]\d{1,2}</item><!--0.5|1.25-->
+
+<!--屏蔽表白-->
+<item enabled="true">t=告白</item>
+<item enabled="true">t=表白</item>
+<item enabled="true">t=我爱你</item>
+<item enabled="true">t=我喜欢</item>
+<item enabled="true">r=告诉.*[我还永]</item><!--告诉xxx 我|还|永远 爱你-->
+<item enabled="true">r=我的?(老婆|老公|女友|男友|女朋友|男朋友)</item>
+
+<!--屏蔽重复和无意义字符-->
+<item enabled="true">r=[zZ]{4}</item><!--zzzz-->
+<item enabled="true">r=^.$</item><!--啊|。等单字符-->
+<item enabled="true">r=[!！\?？\.。~～…=]{3}$</item><!--过多标点符号-->
+<item enabled="true">r=(.)\1{4}</item><!--233|fff|yooo 等过长字符-->
+<item enabled="true">r=(..)\1{1}</item><!--abab|可怕可怕-->
+
+<!--屏蔽撕逼-->
+<item enabled="true">t=骂</item>
+<item enabled="true">t=弹幕礼仪</item>
+<item enabled="true">t=低龄</item>
+<item enabled="true">t=素质</item>
+<item enabled="true">t=屏蔽</item>
+<item enabled="true">t=休想</item>
+<item enabled="true">t=承包</item>
+<item enabled="true">t=独享</item>
+<item enabled="true">t=垃圾</item>
+<item enabled="true">t=辣鸡</item>
+<item enabled="true">t=丢人</item>
+<item enabled="true">t=永动</item>
+<item enabled="true">t=小米智能</item>
+<item enabled="true">r=[dD][sS][sS][qQ]</item><!--dssq-->
+<item enabled="true">r=[mM][dD][zZ]{2}</item><!--mdzz-->
+<item enabled="true">r=爱.*表示.*谴责</item><!--爱喵人士表示强烈谴责-->
+
+<!--屏蔽无聊调侃-->
+<item enabled="true">t=死因</item>
+<item enabled="true">t=高产似</item>
+<item enabled="true">t=失踪人口</item>
+<item enabled="true">t=弹幕演员</item>
+<item enabled="true">t=镇站之宝</item>
+<item enabled="true">t=过气</item>
+<item enabled="true">t=膨胀</item>
+<item enabled="true">t=取关</item>
+<item enabled="true">r=开口[跪|脆]</item>
+<item enabled="true">r=退.*吧</item><!--你退群吧-->
+
+<!--屏蔽路人-->
+<item enabled="true">r=大家好.*我是</item>
+<item enabled="true">r=入.*直播间</item><!--xxx进入了直播间-->
+<item enabled="true">r=见.*滚$</item><!--见xxx滚-->
+<item enabled="true">r=(在下|我是)[^坂本]</item><!--我是xxx-->
+<item enabled="true">r=^([mM][cC])</item><!--MCxxx-->
+<item enabled="true">r=社会(你|我).*哥</item><!--社会你xxx哥-->
+
+<!--屏蔽修仙-->
+<item enabled="true">r=(修仙|螺旋|升天|上天).*无边</item><!--我欲修仙法力无边-->
+
+<!--屏蔽城市-->
+<item enabled="true">r=邯郸|保定|张家口|大同|本溪|丹东|锦州|阜新|辽阳|鸡西|鹤岗|大庆|伊春|佳木斯|牡丹江|无锡</item>
+<item enabled="true">r=常州|苏州|宁波|合肥|淮南|淮北|厦门|枣庄|烟台|潍坊|泰安|临沂|开封|洛阳|平顶山|安阳|新乡</item>
+<item enabled="true">r=襄樊|荆州|株洲|湘潭|衡阳|深圳|汕头|湛江|西宁|焦作|黄石|石家庄|唐山|太原|大连|鞍山|抚顺</item>
+<item enabled="true">r=吉林|齐齐哈尔|徐州|杭州|福州|南昌|济南|青岛|淄博|郑州|长沙|贵阳|昆明|兰州</item>
+<item enabled="true">r=北京|天津|沈阳|长春|哈尔滨|上海|南京|武汉|广州|重庆|成都|陕西|西安|香港|台湾</item>
+<item enabled="true">r=河北|山西|内蒙|辽宁|吉林|黑龙江|江苏|浙江|安徽|福建|江西|山东|河南|湖北</item>
+<item enabled="true">r=湖南|广东|广西|海南|四川|贵州|云南|陕西|甘肃|青海|宁夏|新疆</item>
+</filters>
