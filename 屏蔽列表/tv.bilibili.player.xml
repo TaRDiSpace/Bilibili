@@ -1,9 +1,5 @@
 <filters>
 <!--屏蔽前排霸位-->
-<item enabled="true">t=火前</item>
-<item enabled="true">t=火钳</item>
-<item enabled="true">t=刘明</item>
-<item enabled="true">t=留名</item>
 <item enabled="true">t=火留</item>
 <item enabled="true">t=刚刚</item>
 <item enabled="true">t=好前</item>
@@ -15,6 +11,8 @@
 <item enabled="true">r=[钱前第][!！\?？\.。~～…]{1,6}</item><!--前！！！-->
 <item enabled="true">r=\d[秒分钟小时百千万s(min)m(hour)hwW]</item><!--6min|1.6w-->
 <item enabled="true">r=^前.*前$</item><!--前前前-->
+<item enabled="true">r=火[前钱钳]</item>
+<item enabled="true">r=[留刘流][名明]</item>
 
 <!--屏蔽时间-->
 <item enabled="true">r=(午时|五十|50|51)(到|已到|刚到|刚过|已过|一刀|1刀|刀)</item><!--午时已到-->
@@ -30,10 +28,8 @@
 <item enabled="true">r=\d{1,2}[\.]\d{1,2}</item><!--0.5|1.25-->
 
 <!--屏蔽表白-->
-<item enabled="true">t=告白</item>
-<item enabled="true">t=表白</item>
-<item enabled="true">t=我爱你</item>
-<item enabled="true">t=我喜欢</item>
+<item enabled="true">r=我(喜欢|爱你)</item>
+<item enabled="true">r=[表告]白</item>
 <item enabled="true">r=告诉.*[我还永]</item><!--告诉xxx 我|还|永远 爱你-->
 <item enabled="true">r=我的?(老婆|老公|女友|男友|女朋友|男朋友)</item>
 

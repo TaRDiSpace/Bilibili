@@ -1,4 +1,9 @@
-# Others
+# Bilibili
 
-## bilibili  
-tv.bilibili.player.xml　B站弹幕屏蔽列表
+## 屏蔽列表  
+- tv.bilibili.player.xml
+- keywords_替换ID
+
+## bilibili脚本  
+- bilibili.py  
+- main.py

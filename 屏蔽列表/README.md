@@ -1,11 +1,13 @@
-# bilibili
+# 屏蔽列表
 
-> 分享其它屏蔽列表  
+> 安卓客户端需要升级到可支持正则匹配的版本  
+> 分享其他作者的屏蔽列表  
   [xmcp](https://github.com/xmcp/bilibili-ban-list/blob/master/tv.bilibili.player.xml)  
   [zcyzcy88](https://github.com/zcyzcy88/SelfColle/issues/26)
 
-## 简介 
-|--- tv.bilibili.player.xml　用于屏蔽 http://www.bilibili.com/ 网站视频弹幕
+## 简介
+|--- tv.bilibili.player.xml　网页端屏蔽列表文件  
+|--- keywords_替换ID　安卓客户端屏蔽列表文件
 
 ## 特性
 - 屏蔽前排霸位
@@ -90,6 +92,9 @@ XX升天 XX无边
 ```
 
 ## 更新说明
+### 2017.04.13
+- 合并部分规则
+- 新增手机屏蔽列表文件
 ### 2017.04.11
 - 新增前排霸位同音字“钱”
 - 新增年龄屏蔽
@@ -97,5 +102,5 @@ XX升天 XX无边
 - 首个屏蔽列表
 
 ## 使用方法
-> 打开B站网页端的视频播放页面，选择右方屏蔽设置，右键屏蔽词区域，选择导入XML文件  
-将 tv.bilibili.player.xml 导入同步即可
+> 打开B站网页端的视频播放页面，选择右方屏蔽设置，右键屏蔽词区域，选择导入XML文件 tv.bilibili.player.xml导入同步即可  
+> 手机版需要将文件移动到 Android--data--tv.danmaku.bili--files--block-list 内，并替换文件名及文件内容中的 “替换ID” 为自己原来文件的ID
