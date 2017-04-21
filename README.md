@@ -1,9 +1,7 @@
 # Bilibili
 
 ## 屏蔽列表  
-- tv.bilibili.player.xml
-- keywords_替换ID
+> 手机端和网页端的屏蔽列表文件
 
 ## bilibili脚本  
-- bilibili.py  
-- main.py
+> bilibili登录和屏蔽列表管理脚本

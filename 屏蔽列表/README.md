@@ -7,8 +7,8 @@
   [zcyzcy88](https://github.com/zcyzcy88/SelfColle/issues/26)
 
 ## 简介
-|--- tv.bilibili.player.xml　网页端屏蔽列表文件  
-|--- keywords_替换ID　安卓客户端屏蔽列表文件
+- tv.bilibili.player.xml　网页端屏蔽列表文件  
+- keywords_替换ID　安卓客户端屏蔽列表文件
 
 ## 特性
 - 屏蔽前排霸位
