@@ -46,6 +46,8 @@
 <item enabled="true">r=失[踪蹤]人口</item>
 <item enabled="true">r=开口[跪|脆]</item>
 <item enabled="true">r=退.*吧</item><!--你退群吧-->
+<item enabled="true">r=别看了.*后面</item><!--别看了后面都是这个-->
+<item enabled="true">r=我?有个大胆的?想法</item><!--我有个大胆的想法-->
 <item enabled="true">r=回归人口|人口回归|有生之年</item>
 <item enabled="true">r=死因|高产似|弹幕演员|镇站之宝|过气|膨胀|取关|诈尸</item>
 
@@ -60,13 +62,16 @@
 <!--屏蔽刷梗-->
 <item enabled="true">r=永动|小米智能</item>
 <item enabled="true">r=[Ll]ost(\s)*?[Rr]iver</item><!--lost river-->
+<item enabled="true">r=当然是?(选择)?原谅</item><!--当然是选择原谅她啊-->
+<item enabled="true">r=韩寒.*韩红</item><!--韩寒与韩红-->
 <item enabled="true">r=(修仙|螺旋|升天|上天).*无边</item><!--我欲修仙法力无边-->
 <item enabled="true">r=螺旋(升天|上天)</item><!--螺旋升天-->
 <item enabled="true">t=修仙</item><!--修仙党-->
 <item enabled="true">t=我们走</item><!--皮皮虾，我们走-->
+<item enabled="true">t=愿天堂</item><!--愿天堂没有xxx-->
 
 <!--去污粉-->
-<item enabled="true">r=肛|哲[学學]|♂|[Aa]ss|[Gg]ay</item>
+<item enabled="true">r=肛|哲[学學]|♂|[Aa]ss|[Gg][Aa][Yy]</item>
 
 
 <!--屏蔽城市和省份-->
